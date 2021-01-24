@@ -1,0 +1,12 @@
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\bin\Debug\net5.0\AHLibrary.deps.json
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\bin\Debug\net5.0\AHLibrary.dll
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\bin\Debug\net5.0\ref\AHLibrary.dll
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\bin\Debug\net5.0\AHLibrary.pdb
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\AHLibrary.csprojAssemblyReference.cache
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\AHLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\AHLibrary.AssemblyInfoInputs.cache
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\AHLibrary.AssemblyInfo.cs
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\AHLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\AHLibrary.dll
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\ref\AHLibrary.dll
+C:\Users\Wata-\source\repos\PracticeCSharp\AHCalculator\AHLibrary\obj\Debug\net5.0\AHLibrary.pdb

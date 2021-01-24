@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "AHLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AHLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AHLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AHLibrary/1.0.0": {
+      "type": "project",
+      "path": "../AHLibrary/AHLibrary.csproj",
+      "msbuildProject": "../AHLibrary/AHLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "AHLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Wata-\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\JewelCrafting.csproj",
+      "projectName": "JewelCrafting",
+      "projectPath": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\JewelCrafting.csproj",
+      "packagesPath": "C:\\Users\\Wata-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Wata-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\AHLibrary\\AHLibrary.csproj": {
+              "projectPath": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\AHLibrary\\AHLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

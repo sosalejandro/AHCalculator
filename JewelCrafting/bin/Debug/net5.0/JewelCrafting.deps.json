@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "JewelCrafting/1.0.0": {
+        "dependencies": {
+          "AHLibrary": "1.0.0"
+        },
+        "runtime": {
+          "JewelCrafting.dll": {}
+        }
+      },
+      "AHLibrary/1.0.0": {
+        "runtime": {
+          "AHLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JewelCrafting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AHLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
