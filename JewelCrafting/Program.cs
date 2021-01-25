@@ -8,10 +8,6 @@ namespace JewelCrafting
     {
         static void Main(string[] args)
         {
-            // ShadowghastRing RingTest = new ShadowghastRing(4);
-            // RingTest.MatsNeeded();
-            // RingTest.CostToCraft();
-
             WriteLine("This is the ring crafting price helper, what will you craft today?");
             Write("Ring Rank: ");
             bool input1 = int.TryParse(ReadLine(), out int rank);
