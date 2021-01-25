@@ -8,13 +8,6 @@ namespace JewelCrafting
     {
         public static void CraftingItem(string crafting)
         {
-            WriteLine("This is the ring crafting price helper, what will you craft today?");
-            Write("Ring Rank: ");
-            bool input1 = int.TryParse(ReadLine(), out int rank);
-            ShadowghastRing RingToCraft = new ShadowghastRing(rank);
-            
-            WriteLine("You will need the next amount: ");
-            RingToCraft.MatsNeeded();
             var Crafting = crafting switch
             {
                 string r => new ShadowghastRing(ItemRank()),
