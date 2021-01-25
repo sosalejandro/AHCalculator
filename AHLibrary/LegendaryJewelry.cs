@@ -18,7 +18,7 @@ namespace AHLibrary
                 2 => 15,
                 _ => 10
             };
-            // Mats = new RingMats(amountNeeded);
+            
             materials = new Dictionary<string, int>();
             materials.Add("Shadowghast Ingot", amountNeeded * 2);
             materials.Add("Essence of Rebirth", amountNeeded);
