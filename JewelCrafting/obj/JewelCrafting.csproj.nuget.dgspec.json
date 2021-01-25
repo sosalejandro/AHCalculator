@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\JewelCrafting.csproj": {}
+    "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\jewelcrafting\\JewelCrafting.csproj": {}
   },
   "projects": {
     "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\AHLibrary\\AHLibrary.csproj": {
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\JewelCrafting.csproj": {
+    "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\jewelcrafting\\JewelCrafting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\JewelCrafting.csproj",
+        "projectUniqueName": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\jewelcrafting\\JewelCrafting.csproj",
         "projectName": "JewelCrafting",
-        "projectPath": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\JewelCrafting.csproj",
+        "projectPath": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\jewelcrafting\\JewelCrafting.csproj",
         "packagesPath": "C:\\Users\\Wata-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\JewelCrafting\\obj\\",
+        "outputPath": "C:\\Users\\Wata-\\source\\repos\\PracticeCSharp\\AHCalculator\\jewelcrafting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wata-\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8,6 +8,10 @@ namespace JewelCrafting
     {
         static void Main(string[] args)
         {
+            // ShadowghastRing RingTest = new ShadowghastRing(4);
+            // RingTest.MatsNeeded();
+            // RingTest.CostToCraft();
+
             WriteLine("This is the ring crafting price helper, what will you craft today?");
             Write("Ring Rank: ");
             bool input1 = int.TryParse(ReadLine(), out int rank);
@@ -19,7 +23,7 @@ namespace JewelCrafting
             Write("Press Enter to continue: ");
             ReadLine();
             RingToCraft.CostToCraft();
-            WriteLine("The program will exit, press enter to shutdown: ");
+            WriteLine("The program will exit, press enter to shutdown. ");
             ReadLine();
         }
     }
