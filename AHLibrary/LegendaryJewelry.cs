@@ -1,13 +1,16 @@
-﻿using System;
+using System;
 using static System.Console;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AHLibrary
 {
     public class ShadowghastRing
     {
-        public int Rank;
-        public Dictionary<string, int> materials;
+        public int Rank { get; }
+        public Dictionary<string, int> Materials { get; }
+        // public decimal CostToCraft => Materials?.Sum(x => x.Value * CurrentPrice) ?? 0;
+        // protected decimal CurrentPrice;
         public ShadowghastRing(int rank)
         {
             Rank = rank;
@@ -18,18 +21,21 @@ namespace AHLibrary
                 2 => 15,
                 _ => 10
             };
-            
-            materials = new Dictionary<string, int>();
-            materials.Add("Shadowghast Ingot", amountNeeded * 2);
-            materials.Add("Essence of Rebirth", amountNeeded);
-            materials.Add("Essence of Torment", amountNeeded);
-            materials.Add("Orboreal Shard", amountNeeded);
-            WriteLine(format: "Created an instance of ring {0}", arg0: rank);
+
+            Materials = new Dictionary<string, int>
+            {
+                {"Shadowghast Ingot", amountNeeded * 2},
+                {"Essence of Rebirth", amountNeeded},
+                {"Essence of Torment", amountNeeded},
+                {"Orboreal Shard", amountNeeded}
+            };
+
+
         }
         public void MatsNeeded()
         {
-            WriteLine("{0,-8} {1,25}", "Material", "Amount");
-            foreach (KeyValuePair<string, int> item in materials)
+            WriteLine("{0,-8} {1,25}", "Material", "Amount");            
+            foreach (KeyValuePair<string, int> item in Materials)
             {
                 WriteLine("{0,-20}\t {1,9}", item.Key, item.Value);
             }
@@ -39,7 +45,7 @@ namespace AHLibrary
         {
             Dictionary<string, decimal> Cost = new Dictionary<string, decimal>();
             decimal totalCost = 0m;
-            foreach (KeyValuePair<string, int> item in materials)
+            foreach (KeyValuePair<string, int> item in Materials)
             {
                 decimal currentPrice;
                 Write("What's the current price for {0}?: ", item.Key);
